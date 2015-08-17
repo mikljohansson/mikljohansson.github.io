@@ -50,12 +50,13 @@
                 // instantiate marker and place on map
                 var mark = new eniro.maps.Marker({
                     position: new eniro.maps.LatLng(value.geometry.coordinates[1], value.geometry.coordinates[0]), 
-                    icon: 'http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/images/marker-icon.png'
+                    icon: 'http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/images/marker-icon.png',
+                    myLocationControl: true
                 });
                 mark.setMap(map);
 
                 // add an event listener on the marker, listening for 'click'
-                eniro.maps.event.addListener(mark, 'click', function () {
+                var onclick = function () {
                     // set the content as either HTML or a DOM node.
                     infoWindow.setContent(
                       value.properties.place + '<br/>' + 
@@ -64,7 +65,10 @@
 
                     // open the window on the marker.
                     infoWindow.open(mark);
-                });
+                };
+
+                eniro.maps.event.addListener(mark, 'click', onclick);
+                eniro.maps.event.addListener(mark, 'touchstart', onclick);
               });
             });
 
