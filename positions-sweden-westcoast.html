@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Fiske Positioner - Västkusten</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="http://kartor.eniro.se/rs/eniro.js?partnerId=[your id]"></script>
+    <script type="text/javascript">
+        function toDegrees(deg) {
+           var d = Math.floor (deg);
+           var minfloat = (deg-d)*60;
+           var m = Math.floor(minfloat);
+           var secfloat = (minfloat-m)*60;
+           var s = Math.round(secfloat);
+           // After rounding, the seconds might become 60. These two
+           // if-tests are not necessary if no rounding is done.
+           if (s==60) {
+             m++;
+             s=0;
+           }
+           if (m==60) {
+             d++;
+             m=0;
+           }
+           
+           return ("" + d + "°" + m + "'" + s.toFixed(1) + '"');
+        }
+
+        function toLatLong(n, e) {
+          return '' + toDegrees(n) + 'N ' + toDegrees(e) + 'E'
+        }
+
+        function initMyMap() {
+            // get reference to the DIV that will hold the map.
+            var mymapDiv = document.getElementById('mymap');
+
+            // start an eniro map in the DIV.
+            var map = new eniro.maps.Map(mymapDiv, {
+              center: new eniro.maps.LatLng(57.863612, 11.45874),
+              zoom: 9,
+              mapTypeId: eniro.maps.MapTypeId.NAUTICAL
+            });
+
+            var infoWindow = new eniro.maps.InfoWindow();
+
+            $.getJSON('positions-sweden-westcoast.json', function(response){
+              $.each(response.features, function(key, value){
+                // instantiate marker and place on map
+                var mark = new eniro.maps.Marker({
+                    position: new eniro.maps.LatLng(value.geometry.coordinates[1], value.geometry.coordinates[0]), 
+                    icon: 'http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/images/marker-icon.png'
+                });
+                mark.setMap(map);
+
+                // add an event listener on the marker, listening for 'click'
+                eniro.maps.event.addListener(mark, 'click', function () {
+                    // set the content as either HTML or a DOM node.
+                    infoWindow.setContent(
+                      value.properties.place + '<br/>' + 
+                      toLatLong(value.geometry.coordinates[1], value.geometry.coordinates[0]));
+
+                    // open the window on the marker.
+                    infoWindow.open(mark);
+                });
+              });
+            });
+
+            // set focus to let map handle keypresses
+            map.setFocus(true);
+      }
+    </script>
+    <style type="text/css">
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+
+      /* Define the style (size) of the map */
+      #mymap {
+          height: 100%;
+      }
+
+      /* Information DIV on top of the map. */
+      .info {
+          position: absolute;
+          top: 40px;
+          left: 0px;
+          width: 125px;
+          padding: 10px;
+          color: #493C12;
+          background: #fff;
+          background: rgba(255, 255, 255, 0.9);
+          -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+       }
+       
+       .info p {
+          padding: 0;
+          margin: 0;
+       }
+    </style>      
+  </head>
+  <body onload="initMyMap();">
+    <div id="mymap"></div>
+  </body>
+</html>
