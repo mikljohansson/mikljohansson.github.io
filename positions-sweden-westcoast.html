@@ -50,8 +50,7 @@
                 // instantiate marker and place on map
                 var mark = new eniro.maps.Marker({
                     position: new eniro.maps.LatLng(value.geometry.coordinates[1], value.geometry.coordinates[0]), 
-                    icon: 'http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/images/marker-icon.png',
-                    myLocationControl: true
+                    icon: 'http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/images/marker-icon.png'
                 });
                 mark.setMap(map);
 
@@ -68,9 +67,27 @@
                 };
 
                 eniro.maps.event.addListener(mark, 'click', onclick);
-                eniro.maps.event.addListener(mark, 'touchstart', onclick);
+                eniro.maps.event.addListener(mark, 'touch', onclick);
               });
             });
+
+            // instantiate marker and place on map
+            var location = null;
+            function showPosition(position) {
+              if (location == null) {
+                location = new eniro.maps.Marker({
+                  position: new eniro.maps.LatLng(position.coords.latitude, position.coords.longitude),
+                  icon: 'http://static.eniro.com/img/crosshair.png'
+                });
+                
+                location.setMap(map);
+              }
+              
+              location.setPosition(new eniro.maps.LatLng(position.coords.latitude, position.coords.longitude));
+            }
+
+            // Show current location
+            navigator.geolocation.watchPosition(showPosition);
 
             // set focus to let map handle keypresses
             map.setFocus(true);
