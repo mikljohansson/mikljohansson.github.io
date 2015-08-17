@@ -59,6 +59,7 @@
                     // set the content as either HTML or a DOM node.
                     infoWindow.setContent(
                       value.properties.place + '<br/>' + 
+                      value.geometry.coordinates[1].toFixed(6) + ' ' + value.geometry.coordinates[0].toFixed(6) + '<br/>' + 
                       toLatLong(value.geometry.coordinates[1], value.geometry.coordinates[0]));
 
                     // open the window on the marker.
