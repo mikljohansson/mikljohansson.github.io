@@ -1,7 +1,6 @@
 # http://www.el-ge.se/havsfiskepositioner/vastkustposition.htm
 574204/110486   Lake Placid       Vrak
 574525/112339       29  Bergstopp - bra för bleka, torsk och sej
-575455/112567   Kafferasta       
 575200/112361       48  Berg
 575315/112442   Trollebön   35  Berg - fint område för bl a långa.
 581057/110369   Enö   100   Vrak
@@ -9,7 +8,7 @@
 574200 / 112189       38-30   Vrak
 574387 / 112613   Lake Placid       Vrak
 574402 / 112618   Pölsebergen   30  Berg - bra för makrill, torsk och sej.
-574418 / 110594   Amors Constanza   44-34   Vrak
+574418 / 110594   Amors Constanza   44-34   Vrak - fin position för bl a bleka, långa och torsk.
 574463 / 110605   Gitano  41-37   Vrak
 574469 / 112425   Pölsebergen   20  Bergstopp - bra för makrill, torsk och sej.
 574500 / 112979   Hohenhorn   53  Vrak
@@ -35,7 +34,6 @@
 574695 / 112740   Pölsebergen   18-60    
 574701 / 112715   Pölsebergen        
 574723 / 112162   Pölsebergen   64-95   Berg
-574419/110583       33-44   Vrak - fin position för bl a bleka, långa och torsk.
 574605/110690   Ernst   42-45   Vrak.
 574728/112594   Kong Halfdan  42-50   Vrak
 574803/112280   Torskberget       Som namnet antyder, bra plats för torsk.
@@ -106,7 +104,6 @@
 5729852/1141550 Spe20, 20m, Kuperad bergsbotten, Fin kant 20-55m
 5731324/1120943 Tysktopp, 37m, Bergstopp
 5756560/1124480 14 metarn, 14m, Berg, Kanon topp för agnfisk samt gylta
-5752260/1123750 Lubbegrund, 60m
 5751690/1122030 52:an, 52m, Berg
 5802160/1114780 39:an norr om 37:an, 39m, Berg, Blandade arter..
 5802260/1115810 Kullarna, 39m, Berg, Katt och torsk
