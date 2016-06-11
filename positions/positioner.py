@@ -44,3 +44,9 @@ with open('normalized-eniro.json', 'w') as f:
 			hash((p.longitude, p.latitude)), p.longitude, p.latitude, p.name))
 	f.write(',\n'.join(o))
 	f.write('\n]}')
+
+with open('normalized.gpx', 'w') as f:
+	f.write("""<?xml version="1.0" encoding="UTF-8"?>\n<gpx version="1.0">\n<name>Westcoast Fishing Positions</name>\n""")
+	for p in l:
+		f.write('<wpt lat="%.6f" lon="%.6f"><name>%s</name></wpt>\n' % (p.latitude, p.longitude, p.name))
+	f.write("</gpx>")
