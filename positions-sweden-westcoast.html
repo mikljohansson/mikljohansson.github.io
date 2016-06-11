@@ -8,7 +8,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript" src="http://kartor.eniro.se/rs/eniro.js?partnerId=[your id]"></script>
     <script type="text/javascript">
-        function toDegrees(deg) {
+        function toDDM(deg) {
+           var d = Math.floor (deg);
+           var minfloat = (deg-d)*60;
+           return ("" + d + "°" + minfloat.toFixed(3) + "'");
+        }
+
+        function toDDS(deg) {
            var d = Math.floor (deg);
            var minfloat = (deg-d)*60;
            var m = Math.floor(minfloat);
@@ -28,8 +34,12 @@
            return ("" + d + "°" + m + "'" + s.toFixed(1) + '"');
         }
 
-        function toLatLong(n, e) {
-          return '' + toDegrees(n) + 'N ' + toDegrees(e) + 'E'
+        function toLatLongDDM(n, e) {
+          return 'DDM ' + toDDM(n) + 'N ' + toDDM(e) + 'E'
+        }
+
+        function toLatLongDDS(n, e) {
+          return 'DDS ' + toDDS(n) + 'N ' + toDDS(e) + 'E'
         }
 
         function initMyMap() {
@@ -60,7 +70,8 @@
                     infoWindow.setContent(
                       value.properties.place + '<br/>' + 
                       value.geometry.coordinates[1].toFixed(6) + ' ' + value.geometry.coordinates[0].toFixed(6) + '<br/>' + 
-                      toLatLong(value.geometry.coordinates[1], value.geometry.coordinates[0]));
+                      toLatLongDDM(value.geometry.coordinates[1], value.geometry.coordinates[0]) + '<br/>' + 
+                      toLatLongDDS(value.geometry.coordinates[1], value.geometry.coordinates[0]));
 
                     // open the window on the marker.
                     infoWindow.open(mark);

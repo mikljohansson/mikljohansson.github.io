@@ -1,0 +1,159 @@
+# http://www.el-ge.se/havsfiskepositioner/vastkustposition.htm
+574204/110486   Lake Placid       Vrak
+574525/112339       29  Bergstopp - bra för bleka, torsk och sej
+575455/112567   Kafferasta       
+575200/112361       48  Berg
+575315/112442   Trollebön   35  Berg - fint område för bl a långa.
+581057/110369   Enö   100   Vrak
+573402/113659   Torsten   35-45   Vrak
+574200 / 112189       38-30   Vrak
+574387 / 112613   Lake Placid       Vrak
+574402 / 112618   Pölsebergen   30  Berg - bra för makrill, torsk och sej.
+574418 / 110594   Amors Constanza   44-34   Vrak
+574463 / 110605   Gitano  41-37   Vrak
+574469 / 112425   Pölsebergen   20  Bergstopp - bra för makrill, torsk och sej.
+574500 / 112979   Hohenhorn   53  Vrak
+574501 / 110812   Carolus   52-34   Vrak
+574505 / 112555   Pölsebergen        
+574506 / 112980   Hohenhorn   47  Vrak
+574506 / 112991   Ångaren 1944      Vrak
+574520 / 110667       44-32   Vrak - bra position för stor sej.
+574525 / 112655   19 metaren  19   
+574546 / 112593   Pölsebergen        
+574582 / 113145   Pölsebergen        
+574630 / 112421   Pölsebergen        
+574634 / 110789   ST Cricket  95  Vrak
+574635 / 110797   SS Solid  45-39   Vrak
+574640 / 110741   Ernst   45-37   Vrak
+574649 / 110750   Amsel   100   Vrak
+574650 / 111900   Eisbärg   59  Vrak
+574651 / 112410   Ångaren 1944  50  Vrak
+574652 / 112433   14 metaren  14   
+574654 / 112847   Pölsebergen        
+574662 / 113133   Pölsans Fyr        
+574668 / 112727   Westfalen/Erna  42  Vrak - bra för en rad arter, bl a bleka, långa, torsk och sej.
+574695 / 112740   Pölsebergen   18-60    
+574701 / 112715   Pölsebergen        
+574723 / 112162   Pölsebergen   64-95   Berg
+574419/110583       33-44   Vrak - fin position för bl a bleka, långa och torsk.
+574605/110690   Ernst   42-45   Vrak.
+574728/112594   Kong Halfdan  42-50   Vrak
+574803/112280   Torskberget       Som namnet antyder, bra plats för torsk.
+574808/112338   Marstrandsbergen  50  Berg som hyser bra fiske på havskatt, långa och torsk.
+574918/112500   Arnes topp  36  Berg - bleka, havskatt, långa och torsk
+575227/112379   Lubbegrund  60-70    
+575277/112476   Gamla Ljudbojen   35  Sten.
+575357/112685   Agromayor       Vrak
+575458/112568   Kafferasta  35  Sten och sand - makrill, torsk och vittling.
+575757/111432   Sketberget  85-100  Berg - långa och torsk.
+575949/112449       9    
+575991/112263   Sandåsen  33  Sten - bleka, torsk, sej och skädda.
+580014/111321       62   
+580090/111334   Repet   59-70   Berg.
+580109/111368   Surprisen   45-56   Berg - bra för havskatt, långa, lubb och torsk.
+580365/111985       Grunt   Glyskolja.
+580510/112540   Makella   10  Vrak.
+580745/111690   Storkatten      Bra position för fiske efter havskatt.
+574521/110652   Lobelia   32-45   Vrak.
+574756/113293       10  Markerad topp.
+5748601/1054430   Heddernheim   62  Vrak
+5739300/1118970   Feodosia  52  Vrak
+5749730/1056120   Ganler  50  Vrak
+5746995/1055817   Normandie   36-45   Vrak
+5749730/1056120   Inge Birthe       Vrak
+5739763/1122802   Juuri/Estländaren       Vrak
+5742298/1056071   Buenos Aires S/S  23-38   Vrak
+5753130/1032840   Pioner S/S  98  Vrak
+5743781/1012127   Torpedbåt   41-45   Vrak
+5744022/1058409   Tana  36-41   Vrak
+5745223/1106600   Henly   36-44   Vrak
+5750810/1121697   Christians Vrak   90  Vrak
+5745750/1048120   Nordlyset H88       Vrak
+575522/110974   Ringvraket  41-45   Vrak
+
+
+# http://www.havsfiskeforum.se/viewtopic.php?f=44&t=45
+# http://www.havsfiske.net/pos_vastkusten.htm
+575509/110652 Risvraket
+580806/110670 Westvåg
+580754/110526 Västbank
+581437/111568 AMASIS S/S
+580930/111140 Skytteren
+571907/120019 SATURNUSN S/S
+570602/115326 HERNODIA S/S
+565102/115099 BLENDA S/S
+
+
+# http://www.fiskesnack.com/forum/archive/index.php?t-3778.html
+581437/111568 Vrak  133m
+580930/111140 Vrak
+571907/120019 Vrak  24m
+570602/115326 Vrak  71m
+565102/115099 Vrak  30m
+
+5716120/1144380 Västra Fladen  Grund 27m  Torsk, Katt, Makrill, Pigghaj
+5722800/1125050 Stora Böchern  Grund 20m  Torsk, Katt, Makrill
+5718650/1123200 Lilla Böchern  Grund 19m  Torsk, Katt, Makrill
+
+
+# https://web.archive.org/web/20040402003256/http://www.bjorlandafiske.se/index.php?page=pos
+5728860/1120690 Elake Måns, Sten, Kattställe
+5716208/1144352 29:an
+5732114/1132473 Ragua
+5812166/1055333 Mambo
+5801263/1114951 37:an (mitt på)
+5731700/1134850 Vtin32, 32m, Kuperad bergsbotten
+5729852/1141550 Spe20, 20m, Kuperad bergsbotten, Fin kant 20-55m
+5731324/1120943 Tysktopp, 37m, Bergstopp
+5756560/1124480 14 metarn, 14m, Berg, Kanon topp för agnfisk samt gylta
+5752260/1123750 Lubbegrund, 60m
+5751690/1122030 52:an, 52m, Berg
+5802160/1114780 39:an norr om 37:an, 39m, Berg, Blandade arter..
+5802260/1115810 Kullarna, 39m, Berg, Katt och torsk
+5717250/1149016 Erikeberghällen, Sten/grus/block, Haj och Katt
+5709620/1132140 Groves Flak, Grus/Sten, Stort område med kuperad botten
+5731696/1118012 Katteberg, Sten/grus, Kattställe
+5728000/1125000 Kummelbank, Sten/grus, Bojen på kummelbank
+5724150/1141900 Väst Lången, Grusås från SO till NV, Blågyltor, makrill, en del torsk
+5703321/1131310 Liljan, 70tals ställe kokar av 2kgs vitling
+5726566/1142518 Kungaberget, 25m, Grus/block, Blågyltor, en del torsk
+
+5731354/1127543 Drepanum S/S, Vrak
+5730690/1123860 Allans vrak, Vrak
+5716879/1135640 Ingrid Horn, Vrak
+5732404/1121982 Emma, Vrak
+5732749/1115831 Lise Katrin, Vrak
+5721198/1125301 Oberon, Vrak
+5733937/1115263 Syrenen, Vrak
+5732455/1121387 Örjan, Vrak
+5746060/1106897 Säker pos, Vrak
+5745193/1106530 Henly, 7-43m, Vrak
+5741973/1052840 Wolturnus S/S, 10-34m, Vrak Längd 57.7m
+5746404/1107411 Ernst, 6-45m, Vrak Längd 81m
+5742083/1104917 Warpath S/S, 38m, Vrak
+5745189/1107255 Jämtland S/S, 8-42m, Vrak
+
+
+# http://gonefishingsweden.blogspot.se/2012/08/positioner.html
+5826315/1031154 Bratten
+5826350/1031050 Bratten
+5752601/1124268 Lassemaja
+5802260/1115810 Kullarna
+5754580/1125680 Kafferasta 1
+5806970/1107910 Knallberget
+
+5736079/1126791 Briggen, Vrak
+5826901/1031500 Novi, Ligger i nord på Bratten, Vrak
+5739763/1122802 Juri, Estländaren är ett annat namn på vraket, Vrak
+5756590/1029630 Lever Maj, Vrak
+5808470/1108210 Fjutten, Vrak
+5749935/1102764 Inge Birthe S127, Vrak
+
+
+# http://www.fiskesnack.com/forum/showthread.php/6197-Vrak-Positioner
+580938/111153 Valkokaren
+580676/105967 Duvan, 138-148m, Långa, lubb, torsk och sej
+
+
+# http://www.sveramp.se/doc/POI_Fiske.html
+# http://www.krigsforum.se/forum/viewtopic.php?p=58610
