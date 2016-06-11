@@ -96,7 +96,6 @@
 
 # https://web.archive.org/web/20040402003256/http://www.bjorlandafiske.se/index.php?page=pos
 5728860/1120690 Elake Måns, Sten, Kattställe
-5716208/1144352 29:an
 5732114/1132473 Ragua
 5812166/1055333 Mambo
 5801263/1114951 37:an (mitt på)
@@ -136,7 +135,6 @@
 5826350/1031050 Bratten
 5752601/1124268 Lassemaja
 5802260/1115810 Kullarna
-5754580/1125680 Kafferasta 1
 5806970/1107910 Knallberget
 
 5736079/1126791 Briggen, Vrak
