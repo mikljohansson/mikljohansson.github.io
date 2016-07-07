@@ -45,8 +45,20 @@ with open('normalized-eniro.json', 'w') as f:
 	f.write(',\n'.join(o))
 	f.write('\n]}')
 
+# http://cycleseven.org/gps-waypoints-routes-and-tracks-the-difference
 with open('normalized.gpx', 'w') as f:
-	f.write("""<?xml version="1.0" encoding="UTF-8"?>\n<gpx version="1.0">\n<name>Westcoast Fishing Positions</name>\n""")
+	f.write("""<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<gpx version="1.1"
+    creator="positions.py"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.topografix.com/GPX/1/1"
+    xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+	<metadata>
+		<name>Fishing Positions</name>
+	</metadata>
+""")
+	
 	for p in l:
-		f.write('<wpt lat="%.6f" lon="%.6f"><name>%s</name></wpt>\n' % (p.latitude, p.longitude, p.name))
+		f.write('<wpt lat="%.6f" lon="%.6f"><ele>0.0</ele><name>%s</name></wpt>\n' % (p.latitude, p.longitude, p.name))
+	
 	f.write("</gpx>")
