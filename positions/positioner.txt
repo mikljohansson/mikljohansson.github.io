@@ -1,3 +1,35 @@
+# Eniro Sjökort (needs conversion from decimal to DDM)
+57535035/11248104   Vrak   43
+57538799/11236646   Vrak   43
+57548471/11218493   Vrak   51
+57541399/11207614   Vrak   65
+57543197/11195718   Vrak   63 
+57509937/11207755   Vrak   43
+57507642/11189229   Vrak   81
+57560285/11182393   Vrak   61
+57576028/11199954   Vrak   45
+57580248/11200031   Vrak   46
+57576943/11172453   Vrak   64
+57587881/11177989   Vrak   53
+57581655/11133933   Vrak   100
+57475088/11267725   Vrak   42
+57451697/11275360   Vrak   58
+57449725/11253383   Vrak
+57420604/11225934   Vrak   88
+57393110/11167458   Vrak   41
+57452212/11992230   Vrak   43
+57519181/11418280   Vrak   52
+57452180/11099330   Vrak   45
+57450390/11298010   Vrak   34
+57503980/11285350   Vrak   44
+57440430/11163720   Vrak   51
+57408210/11114120   Vrak   38
+57546510/11112770   Vrak   69
+57543340/11096420   Vrak   65
+57520430/11287180   Vrak   36 
+57504950/11249430   Plattform
+57543960/11253050   Vrakrester, skräp
+
 # http://www.el-ge.se/havsfiskepositioner/vastkustposition.htm
 574204/110486   Lake Placid       Vrak
 574525/112339       29  Bergstopp - bra för bleka, torsk och sej
@@ -11,11 +43,9 @@
 574418 / 110594   Amors Constanza   44-34   Vrak - fin position för bl a bleka, långa och torsk.
 574463 / 110605   Gitano  41-37   Vrak
 574469 / 112425   Pölsebergen   20  Bergstopp - bra för makrill, torsk och sej.
-574500 / 112979   Hohenhorn   53  Vrak
+57750664 / 11496677    Hohenhorn   53  Vrak
 574501 / 110812   Carolus   52-34   Vrak
 574505 / 112555   Pölsebergen        
-574506 / 112980   Hohenhorn   47  Vrak
-574506 / 112991   Ångaren 1944      Vrak
 574520 / 110667       44-32   Vrak - bra position för stor sej.
 574525 / 112655   19 metaren  19   
 574546 / 112593   Pölsebergen        

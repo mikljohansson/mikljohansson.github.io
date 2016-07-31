@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf8
-import re
+import re, math
 
 class Position(object):
 	def __init__(self, latitude, longitude, name, latlong):
@@ -12,12 +12,21 @@ class Position(object):
 s = open('positioner.txt').read()
 l = []
 
+def toDDM(deg):
+   d = math.floor(deg)
+   minfloat = (deg-d)*60
+   return ("%d%.4f" % (d, minfloat)).replace('.', '');
+
 for m in re.finditer('(\d{2})(\d{2})(\d{2})(\d*|)\s*/\s*(\d{2})(\d{2})(\d{2})(\d*|)\s*(.+)', s, re.MULTILINE):
-	print m.group(4)
+	#print m.groups()
 	
 	# Assumes input in DDS
 	#latitude = float(m.group(1)) + float(m.group(2)) / 60.0 + (float(m.group(3)) + float('0.' + m.group(4))) / 3600.0
 	#longitude = float(m.group(5)) + float(m.group(6)) / 60.0 + (float(m.group(7)) + float('0.' + m.group(8))) / 3600.0
+
+    # Assumes input in decimal degrees
+	#latitude = float(m.group(1)) + float('0.' + m.group(2) + m.group(3) + m.group(4))
+	#longitude = float(m.group(5)) + float('0.' + m.group(6) + m.group(7) + m.group(8))
 
 	# Assumes input in DDM
 	latitude = float(m.group(1)) + (float(m.group(2)) + float('0.' + m.group(3) + m.group(4))) / 60.0
@@ -29,6 +38,8 @@ for m in re.finditer('(\d{2})(\d{2})(\d{2})(\d*|)\s*/\s*(\d{2})(\d{2})(\d{2})(\d
 	latlong = '%s°%s.%s\'N %s°%s.%s\'E' % (
 		m.group(1), m.group(2), m.group(3) + m.group(4),
 		m.group(5), m.group(6), m.group(7) + m.group(8))
+
+#	print "%s/%s   %s" % (toDDM(latitude), toDDM(longitude), m.group(9))
 
 	l.append(Position(latitude, longitude, d, latlong))
 	
